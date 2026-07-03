@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "title": "Nice(TSY) Cypher System Add-ons",
   "description": "This module adds some QOL Add-ons in the Cypher System made by Mrkwnzl, maintained by MetaphorUnderbog for Foundry VTT v14.",
-  "readme": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/README.md",
-  "license": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/LICENSE.md",
-  "changelog": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/CHANGELOG.md",
+  "readme": "https://raw.githubusercontent.com/MetaphorUnderbog/nice-cypher-addons-main/refs/heads/main/README.md",
+  "license": "https://raw.githubusercontent.com/MetaphorUnderbog/nice-cypher-addons-main/refs/heads/main/LICENSE.md",
+  "changelog": "https://raw.githubusercontent.com/MetaphorUnderbog/nice-cypher-addons-main/refs/heads/main/CHANGELOG.md",
   "authors": [
     {
       "name": "Alec (Nice to see you / NiceTSY)",
@@ -82,7 +82,7 @@
     ]
   },
   "url": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main",
-  "manifest": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/MetaphorUnderbog/nice-cypher-addons-main/refs/heads/main/module.json",
   "download": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/releases/latest/download/nice-cypher-addons-main.zip",
   "compatibility": {
     "minimum": "10",
