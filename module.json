@@ -1,12 +1,12 @@
 {
   "id": "nice-cypher-add-ons",
   "name": "nice-cypher-add-ons",
-  "version": "[Current Version]",
+  "version": "1.0.0",
   "title": "Nice(TSY) Cypher System Add-ons",
-  "description": "This module adds some QOL Add-ons in the Cypher System made by Mrkwnzl",
-  "readme": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/README.md",
-  "license": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/LICENSE.md",
-  "changelog": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/CHANGELOG.md",
+  "description": "This module adds some QOL Add-ons in the Cypher System made by Mrkwnzl, maintained by MetaphorUnderbog for Foundry VTT v14.",
+  "readme": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/README.md",
+  "license": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/LICENSE.md",
+  "changelog": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/CHANGELOG.md",
   "authors": [
     {
       "name": "Alec (Nice to see you / NiceTSY)",
@@ -70,18 +70,20 @@
     }
   ],
   "relationships": {
-    "systems": [{
-      "id": "cyphersystem",
-      "type": "system",
-      "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/v2.2.0/system.json",
-      "compatibility": {
-        "verified": "10.0.0"
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/v2.2.0/system.json",
+        "compatibility": {
+          "verified": "2.2.0"
+        }
       }
-    }]
+    ]
   },
-  "url": "[Github URL]",
-  "manifest": "[Manifest URL]",
-  "download": "[Download URL]",
+  "url": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main",
+  "manifest": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/blob/main/module.json",
+  "download": "https://github.com/MetaphorUnderbog/nice-cypher-addons-main/releases/latest/download/nice-cypher-addons-main.zip",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
