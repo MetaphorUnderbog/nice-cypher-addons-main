@@ -1,0 +1,33 @@
+{
+	"NICECYPHER.SettingsMenuTitle": "Add-ons menu options",
+	"NICECYPHER.SettingsMenuLabel": "Change current options",
+	"NICECYPHER.SettingsMenuHint": "Select add-on options you want in your World",
+	"NICECYPHER.SettingsSubmit": "Submit",
+	"NICECYPHER.SettingsReset": "Reset",
+
+	"NICECYPHER.SettingsGMINTRUSIONTitle": "GM intrusion HUD",
+	"NICECYPHER.SettingsGMINTRUSIONHint": "Add an option on the token HUD to send an intrusion to player.",
+	"NICECYPHER.SettingsAUTOROLLTitle": "Object roll level",
+	"NICECYPHER.SettingsAUTOROLLHint": "Automatically roll the level of Cypher and Artifact when dragged on a character sheet.",
+	"NICECYPHER.SettingsSHOWTRADETitle": "Show trade button",
+	"NICECYPHER.SettingsSHOWTRADEHint": "Add an icon on the character sheet to show the trade function between players.",
+	"NICECYPHER.SettingsSORTITEMSTitle": "Sort Items by @sorting",
+	"NICECYPHER.SettingsSORTITEMSHint": "When a Skill or Ability is added to an actor, then put that skill/ability into a category specified by: \"@sorting <category>\" appearing in the item's description.",
+	"NICECYPHER.SettingsSENTENCELINKTitle": "Use the sentence links",
+	"NICECYPHER.SettingsSENTENCELINKHint": "Allow players to directly drag journal note as the Focus/Descriptor/Type/Additional on the character sheet of an actor.",
+	"NICECYPHER.SettingsCREATIONTOOLTitle": "Use the creation tool",
+	"NICECYPHER.SettingsCREATIONTOOLHint": "When sentence links (above) is enabled, this also add the specified linked items inside the journal to the actor.",
+	
+	"NICECYPHER.GMi": "GM intrusion",
+	"NICECYPHER.Intrusion": "Intrusion",
+	
+	"NICECYPHER.Trade": "Trade",
+	"NICECYPHER.TradeRequestTitle": "Trade Request",	
+	"NICECYPHER.TradeRequestContent": "{actorName} is sending {rxActorName}: {tradeOffer}. Do you accept?",
+	"NICECYPHER.CannotTradeLessThanOneObject": "You cannot trade negative quantity.",
+
+	"NICECYPHER.CreationAlreadySentence": "The character already possess the following type: {type}",
+	"NICECYPHER.CreationButtonHint": "Current {type} (alt-click to delete it)",
+
+	"NICECYPHER.CreationNotGoodTypeOfJournal": "The journal {name} is not recognised by the Creation Tool."
+}

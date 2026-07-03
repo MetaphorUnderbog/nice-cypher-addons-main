@@ -1,0 +1,89 @@
+{
+  "id": "nice-cypher-add-ons",
+  "name": "nice-cypher-add-ons",
+  "version": "[Current Version]",
+  "title": "Nice(TSY) Cypher System Add-ons",
+  "description": "This module adds some QOL Add-ons in the Cypher System made by Mrkwnzl",
+  "readme": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/README.md",
+  "license": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/LICENSE.md",
+  "changelog": "https://raw.githubusercontent.com/NiceTSY/nice-cypher-add-ons/master/CHANGELOG.md",
+  "authors": [
+    {
+      "name": "Alec (Nice to see you / NiceTSY)",
+      "url": "https://github.com/NiceTSY",
+      "discord": "Nice to see you#6655",
+      "flags": {}
+    },
+    {
+      "name": "VeilOfOblivion",
+      "url": "https://github.com/VeilOfOblivion",
+      "flags": {}
+    },
+    {
+      "name": "Farling",
+      "url": "https://github.com/farling42",
+      "email": "foundryvtt@amusingtime.uk",
+      "discord": "Farling#9579",
+      "flags": {}
+    },
+    {
+      "name": "jabelardo",
+      "url": "https://github.com/jabelardo",
+      "flags": {}
+    },
+    {
+      "name": "metaphorunderbog",
+      "url": "https://github.com/metaphorunderbog",
+      "discord": "metaphorunderbog",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "path": "lang/en.json",
+      "name": "",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "path": "lang/fr.json",
+      "name": "",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/add-ons.js"
+  ],
+  "styles": [
+    "styles/addons.css"
+  ],
+  "socket": true,
+  "packs": [
+    {
+      "name": "useful-macros",
+      "label": "Useful - Macros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "cyphersystem",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/v2.2.0/system.json",
+      "compatibility": {
+        "verified": "10.0.0"
+      }
+    }]
+  },
+  "url": "[Github URL]",
+  "manifest": "[Manifest URL]",
+  "download": "[Download URL]",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  }
+}
